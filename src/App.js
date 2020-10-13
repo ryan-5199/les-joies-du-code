@@ -55,7 +55,7 @@ function App() {
             </div>
           </div>
           <div class="droite">
-          <button type="button" class="btn btn-dark">Suivant ></button>
+          <button type="button" class="btn btn-dark">Suivant {'>'}</button>
           </div>
           <div class="container-fluid sepa">
             <div class="row justify-content-md-center">
