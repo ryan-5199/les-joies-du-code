@@ -5,14 +5,14 @@ function App() {
   return (
     <div class="page">
       <nav class="navbar navbar-expand-lg navi">
-        <a class="navbar-item tittle">Les joies du code</a> 
+        <div class="navbar-item tittle">Les joies du code</div> 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item ">
-              <a class="nav-link random">random</a>
+              <div class="nav-link random">random</div>
             </li>
             <li class="nav-item">
-              <a class="nav-link jobs">jobs</a>
+              <div class="nav-link jobs">jobs</div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
