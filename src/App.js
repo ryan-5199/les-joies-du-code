@@ -39,15 +39,36 @@ function App() {
           </div>
           <div class="container-fluid">
             <div class="row">
-              <div class="facebook">
+              <div class="col facebook">
                 Facebook
               </div>
+              <div class="col twitter">
+                Twitter
+              </div>
+              <div class="col email">
+                Email
+              </div>
+              <div class="col lien">
+                lien
+              </div>
+              <div class="col-5">
+              </div>
+            </div>
+          </div>
+          <div class="droite">
+          <button type="button" class="btn btn-dark">Suivant ></button>
+          </div>
+          <div class="container-fluid sepa">
+            <div class="row justify-content-md-center">
+              <div class="col-4 sep"></div>
+              <div class="col-3 posts">Plus de posts</div>
+              <div class="col-4 sep"></div>
             </div>
           </div>
         </div>
         <div class="col-3">
         </div>
-
+        
       </div>
     </div>
   );
