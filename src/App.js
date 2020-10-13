@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -67,8 +66,7 @@ function App() {
           </div>
         </div>
         <div class="col-3">
-        </div>
-        
+        </div>      
       </div>
     </div>
   );
