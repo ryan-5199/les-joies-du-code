@@ -50,39 +50,38 @@ const isEqualto20 = a === 20
 //1°
     //rectangle
 
-    function aire(longueur, largeur){
-        let aire =  longueur * largeur
-        return aire
+    function airerec(longueur, largeur){
+        let airerec =  longueur * largeur
+        return airerec
     } 
 
-    console.log (aire(3 , 5))
+    console.log (airerec(3 , 5))
 
 //2°
 
-    function perimetre(longueur, largeur) {
-        let perimetre = (longueur + largeur)*2
-        return perimetre
+    function perimetrerec(longueur, largeur) {
+        let perimetrerec = (longueur + largeur)*2
+        return perimetrerec
     }
 
 
 //3°
 
-    function aire(base, hauteur) {
-        let aire = (base * hauteur)/2
+    function airetri(base, hauteur) {
+        let airetri = (base * hauteur)/2
+        return airetri
     }
 
 //4°
 
-    function perimetre(cote1, cote2, cote3) {
-        let perimetre = cote1 + cote2 + cote3
-        return perimetre
+    function perimetretri(cote1, cote2) {
+        let perimetretri = cote1 + cote2 + Math.sqrt(cote1**2 + cote2**2)
+        return perimetretri
     }
 
+    console.log (perimetretri(2, 4))
 
 //5°
-
-    let kelvins = 1
-    let celcius = -273.15
 
     function kenc(kelvins) {
         let kenc = kelvins - 273.15
@@ -91,16 +90,16 @@ const isEqualto20 = a === 20
 
 //6°
 
-    function perimetre(rayon) {
-        let perimetre = 2 * Math.PI * rayon
-        return perimetre
+    function perimetrecer(rayon) {
+        let perimetrecer = 2 * Math.PI * rayon
+        return perimetrecer
     }
 
 //7°
 
-    function aire(rayon) {
-        let aire = 2 * Math.PI * rayon**2
-        return aire
+    function airecer(rayon) {
+        let airecer = 2 * Math.PI * rayon**2
+        return airecer
     }
 
 //8°
@@ -121,10 +120,10 @@ const isEqualto20 = a === 20
 
     function divisible(nbr) {
         if (nbr%2 != 0) {
-            true
+            return false
         }
         else {
-            false
+            return true
         }
     }
 
@@ -143,3 +142,21 @@ const isEqualto20 = a === 20
         return der
     }
     console.log (der('chaine'))
+
+
+/**bonus
+conso d'essence 
+distance
+taille du reservoir
+*/
+
+    function plein(conso, distance, taille) {
+        if ((conso*taille)/distance <= taille) {
+            return true
+        }
+        else {
+            return false
+        }
+    }
+
+    console.log (plein(3 , 9, 35))
